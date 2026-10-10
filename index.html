@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>دعوة زفاف معتز و مريم</title>
+<meta name="description" content="بقلوب يملؤها الفرح ندعوكم لحضور حفل زفاف معتز و مريم - الخميس ٢٢ أكتوبر ٢٠٢٦ - قاعة الياسمينا">
+<meta name="robots" content="noindex, nofollow">
+<meta name="theme-color" content="#0d241e">
+<meta property="og:type" content="website">
+<meta property="og:title" content="دعوة زفاف معتز و مريم">
+<meta property="og:description" content="الخميس ٢٢ أكتوبر ٢٠٢٦ - الساعة ٩ مساءً - قاعة الياسمينا، ملوي">
+<!-- بعد الرفع: استبدل الرابط ده برابط موقعك الحقيقي (شوف README) -->
+<meta property="og:image" content="https://YOUR-SITE.netlify.app/og-image.png">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%F0%9F%92%8D%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Aref+Ruqaa:wght@400;700&family=Cairo:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<noscript><style>#cover{display:none}.rise{opacity:1;transform:none}</style></noscript>
+</head>
+<body>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <symbol id="jas" viewBox="-50 -50 100 100">
+    <g fill="var(--petal)" stroke="var(--petal-edge)" stroke-width="1.6">
+      <ellipse cx="0" cy="-26" rx="12" ry="25"/>
+      <ellipse cx="0" cy="-26" rx="12" ry="25" transform="rotate(72)"/>
+      <ellipse cx="0" cy="-26" rx="12" ry="25" transform="rotate(144)"/>
+      <ellipse cx="0" cy="-26" rx="12" ry="25" transform="rotate(216)"/>
+      <ellipse cx="0" cy="-26" rx="12" ry="25" transform="rotate(288)"/>
+    </g>
+    <circle r="6" fill="var(--gold)"/>
+  </symbol>
+</svg>
+
+<div id="petals" aria-hidden="true"></div>
+
+<section id="cover">
+  <svg class="flower" aria-hidden="true"><use href="#jas"/></svg>
+  <p class="display" style="font-size:22px">بسم الله الرحمن الرحيم</p>
+  <h1 class="display">دعوة زفاف</h1>
+  <p>معتز و مريم</p>
+  <button id="openBtn" type="button">افتح الدعوة</button>
+</section>
+
+<main>
+  <article class="card">
+    <p class="bism display rise" style="--i:0">بسم الله الرحمن الرحيم</p>
+    <p class="verse rise" style="--i:1">وَمِنْ آيَاتِهِ أَنْ خَلَقَ لَكُم مِّنْ أَنفُسِكُمْ أَزْوَاجًا لِّتَسْكُنُوا إِلَيْهَا وَجَعَلَ بَيْنَكُم مَّوَدَّةً وَرَحْمَةً</p>
+    <p class="lead rise" style="--i:2">بقلوب يملؤها الفرح، يتشرف أهل العروسين بدعوتكم لحضور حفل زفاف</p>
+    <div class="names display rise" style="--i:3"><span>معتز</span><i>و</i><span>مريم</span></div>
+    <p class="when rise" style="--i:4">الخميس</p>
+    <p class="day display rise" style="--i:4">٢٢</p>
+    <p class="when rise" style="--i:4">أكتوبر ٢٠٢٦</p>
+    <p class="when rise" style="--i:4">الساعة التاسعة مساءً</p>
+    <p class="where rise" style="--i:5"><small>في</small>قاعة الياسمينا<small>ملوي - معصرة ملوي</small></p>
+    <div class="actions rise" style="--i:5">
+      <a class="btn" href="https://maps.app.goo.gl/tC8RXmaaf9AqHYuq5" target="_blank" rel="noopener noreferrer">افتح الموقع على الخريطة</a>
+      <button class="btn" id="calBtn" type="button">أضف إلى التقويم</button>
+    </div>
+    <div class="count rise" style="--i:6" id="count" aria-label="العد التنازلي لموعد الزفاف">
+      <div><b id="d">٠</b><span>يوم</span></div>
+      <div><b id="h">٠</b><span>ساعة</span></div>
+      <div><b id="m">٠</b><span>دقيقة</span></div>
+      <div><b id="s">٠</b><span>ثانية</span></div>
+    </div>
+    <p class="count-note rise" style="--i:6" id="note">باقي على الفرحة</p>
+    <p class="end display rise" style="--i:7">بحضوركم تكتمل فرحتنا</p>
+    <p class="sign rise" style="--i:7">أسرتا العروسين</p>
+    <div class="actions rise" style="--i:7"><button class="btn" id="shareBtn" type="button">شارك الدعوة</button></div>
+  </article>
+</main>
+<script src="script.js"></script>
+</body>
+</html>
